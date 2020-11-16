@@ -1,0 +1,45 @@
+.price-card .round-box {
+  padding: 10px 5px;
+  border: 1px solid #ddd;
+  color: gray;
+}
+
+.price-card .round-box h4 {
+  margin-bottom: 0;
+}
+.price-fare {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.price-fare li {
+  padding: 15px 10px;
+  display: flex;
+
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+.price-fare li:last-child {
+  border-bottom: none;
+  font-weight: bold;
+}
+.round-box {
+  padding: 10px 5px;
+  border: 1px solid #ddd;
+  color: gray;
+}
+.round-box h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.price-fare p {
+  padding: 0;
+  margin: 0;
+}
+
+.price-card {
+  box-shadow: 3px 6px 12px #ddd;
+  padding: 30px 20px;
+  border-radius: 8px;
+}
