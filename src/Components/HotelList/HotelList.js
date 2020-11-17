@@ -4,6 +4,7 @@ import hotel1 from '../../images/hotel-1.jpg'
 import hotel2 from '../../images/hotel-2.jpg'
 import hotel3 from '../../images/hotel-3.jpeg'
 import star from '../../images/star.png'
+import ShowMap from '../ShowMap/ShowMap';
 
 const HotelList = () => {
     const [clientsNeed, setClientsNeed] = useContext(ClientContext)
@@ -100,7 +101,7 @@ const HotelList = () => {
             </div>
 
             <div className='col-lg-5'>
-            {/* <ShowMap /> */}
+                <ShowMap></ShowMap>
             </div>
         </div>
     );
